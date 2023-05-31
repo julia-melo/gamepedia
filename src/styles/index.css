@@ -1,0 +1,8 @@
+@import url(theme.css);
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--md-sys-color-primary);
+}

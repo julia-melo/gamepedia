@@ -1,0 +1,13 @@
+{
+  "list": [
+    {
+      "id": "123",
+			"slug": "hogwarts-legacy",
+      "title": "Hogwarts Legacy",
+      "shortDescription": "Live the unwritten",
+      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202208/0921/3XopdGAJGRy3xNQKnQDvaCRs.png",
+      "ratingsAverage": 4.8
+    }
+  ],
+  "pagination": {}
+}
