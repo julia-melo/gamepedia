@@ -3,6 +3,11 @@ body.dark-mode {
   --md-sys-color-on-primary: var(--md-sys-color-on-primary-dark);
   --md-sys-color-background: var(--md-sys-color-background-dark);
   --md-sys-color-on-background: var(--md-sys-color-on-background-dark);
+  --md-sys-color-background-media: var(--md-sys-color-background-media-dark);
+  --md-sys-color-on-background-media: var(--md-sys-color-on-background-media-dark);
   --md-sys-color-surface: var(--md-sys-color-surface-dark);
   --md-sys-color-on-surface: var(--md-sys-color-on-surface-dark);
+  --md-sys-color-gradient-1: var(--md-sys-color-gradient-1-dark);
+  --md-sys-color-gradient-2: var(--md-sys-color-gradient-2-dark);
+  --md-sys-color-gradient-3: var(--md-sys-color-gradient-3-dark);
 }

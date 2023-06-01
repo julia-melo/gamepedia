@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    var(--md-sys-color-gradient-1) 0%,
+    var(--md-sys-color-gradient-2) 71%,
+    var(--md-sys-color-gradient-3) 100%
+  );
+  height: 64px;
+  padding: 0 16px;
+}
+
+header h1 {
+  color: var(--md-sys-color-on-background-media);
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 56px;
+  }
+}

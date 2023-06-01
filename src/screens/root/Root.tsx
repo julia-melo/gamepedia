@@ -1,5 +1,4 @@
-import ButtonBack from '@/components/button-back/ButtonBack';
-import ButtonTheme from '@/components/button-theme';
+import Navbar from '@/components/navbar/navbar';
 import { Outlet, Link, useNavigation } from 'react-router-dom';
 
 export default function Root() {
@@ -7,15 +6,13 @@ export default function Root() {
 
   return (
     <>
-      Root component
+      <Navbar />
       {navigation.state === 'loading' ? (
         'Loading...'
       ) : (
         <>
-          <ButtonBack />
           <Link to={`game/hogwarts-legacy`}>Go to hogwarts legacy</Link>
           <Link to={`/`}>Return to root page</Link>
-          <ButtonTheme />
           <Outlet />
         </>
       )}
