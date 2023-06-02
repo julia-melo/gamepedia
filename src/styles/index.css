@@ -1,8 +1,25 @@
 @import url(theme.css);
+@import url(typography.css);
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--md-sys-color-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Saira Condensed;
+}
+
+span,
+div,
+p,
+a {
+  font-family: Roboto;
 }
