@@ -2,9 +2,9 @@ import { PropsWithChildren } from 'react';
 
 import './button-icon.css';
 
-interface ButtonIconProps {
+type ButtonIconProps = {
   onClick: () => void;
-}
+};
 
 export default function ButtonIcon({ onClick, children }: PropsWithChildren<ButtonIconProps>) {
   return (

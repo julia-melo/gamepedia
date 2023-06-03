@@ -1,0 +1,17 @@
+.root-page {
+  display: flex;
+  justify-content: center;
+}
+
+.root-container {
+  margin-top: 64px;
+  max-width: 864px;
+  width: 100%;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 784px) {
+  .root-container {
+    margin-top: 56px;
+  }
+}

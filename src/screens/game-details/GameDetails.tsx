@@ -1,8 +1,16 @@
 import { useLoaderData } from 'react-router-dom';
-import { GameDetailsLoader } from './game-details-loader';
+import Card from '@/components/card/Card';
+import { GameDetailsLoader } from './loader';
 
 export default function GameDetails() {
   const { details } = useLoaderData() as GameDetailsLoader;
 
-  return <>Game details component - {details.title}</>;
+  return (
+    <>
+      <Card title={details.title} head={details.slug} image={details.img} />
+      <Card title={details.title} head={details.slug} image={details.img} />
+      <Card title={details.title} head={details.slug} image={details.img} />
+      <Card title={details.title} head={details.slug} image={details.img} />
+    </>
+  );
 }

@@ -18,3 +18,10 @@ export interface IGameDetails {
   ratings: AverageRatings;
   tips: string[];
 }
+
+export interface IGameMission {
+  id: string;
+  order: 5;
+  title: string;
+  img: string;
+}

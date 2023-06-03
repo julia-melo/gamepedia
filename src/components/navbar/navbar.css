@@ -1,4 +1,6 @@
 header {
+  width: 100%;
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,15 +11,18 @@ header {
     var(--md-sys-color-gradient-3) 100%
   );
   height: 64px;
-  padding: 0 16px;
 }
 
 header h1 {
   color: var(--md-sys-color-on-background-media);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 784px) {
   header {
     height: 56px;
   }
+}
+
+.navbar-button {
+  padding: 0 16px;
 }

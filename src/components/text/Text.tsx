@@ -2,10 +2,15 @@ import { PropsWithChildren } from 'react';
 import { Sizes } from '@/types';
 import './text.css';
 
-interface TextProps {
-  size: Sizes;
-}
+type TextProps = {
+  size?: Sizes;
+  className?: string;
+};
 
-export default function Text({ size = Sizes.MEDIUM, children }: PropsWithChildren<TextProps>) {
-  return <p className={`text-${size}`}>{children}</p>;
+export default function Text({
+  size = Sizes.MEDIUM,
+  children,
+  className = '',
+}: PropsWithChildren<TextProps>) {
+  return <p className={`text-${size} ${className}`}>{children}</p>;
 }

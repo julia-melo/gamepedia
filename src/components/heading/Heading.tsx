@@ -2,21 +2,23 @@ import { PropsWithChildren } from 'react';
 import { Sizes } from '@/types';
 import './heading.css';
 
-interface HeadingProps {
-  size: Sizes;
-}
+type HeadingProps = {
+  size?: Sizes;
+  className?: string;
+};
 
 export default function Heading({
   size = Sizes.MEDIUM,
   children,
+  className = '',
 }: PropsWithChildren<HeadingProps>) {
   if (size === Sizes.SMALL) {
-    return <h3 className="heading-small">{children}</h3>;
+    return <h3 className={`heading-small ${className}`}>{children}</h3>;
   }
 
   if (size === Sizes.MEDIUM) {
-    return <h2 className="heading-medium">{children}</h2>;
+    return <h2 className={`heading-medium ${className}`}>{children}</h2>;
   }
 
-  return <h1 className="heading-large">{children}</h1>;
+  return <h1 className={`heading-large ${className}`}>{children}</h1>;
 }
