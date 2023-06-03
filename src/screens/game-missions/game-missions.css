@@ -1,0 +1,11 @@
+.game-missions-title {
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.game-missions-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}

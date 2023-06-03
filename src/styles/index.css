@@ -14,8 +14,6 @@ h4,
 h5,
 h6 {
   font-family: Saira Condensed;
-  font-weight: normal;
-  margin: 0;
 }
 
 span,
@@ -23,7 +21,21 @@ div,
 p,
 a {
   font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+p,
+a {
+  color: var(--md-sys-color-on-background);
   font-weight: normal;
   margin: 0;
   line-height: 1.24;
+  letter-spacing: 0.5px;
 }

@@ -10,7 +10,7 @@ export async function getGameDetails(_slug: string): Promise<IGameDetails> {
 
 export async function getGameMissions(_slug: string): Promise<IGameMission[]> {
   const response = await axios.get(
-    'https://run.mocky.io/v3/c33e71b0-46ff-4098-a6bb-2901166e0f82?mocky-delay=800ms'
+    'https://run.mocky.io/v3/52a302bc-3eb1-4f30-8d72-1d9986f93499?mocky-delay=800ms'
   );
   return response.data.list;
 }

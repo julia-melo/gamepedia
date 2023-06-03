@@ -1,5 +1,6 @@
 import Root from './screens/root';
 import GameDetails, { gameDetailsLoader } from './screens/game-details';
+import GameMissions, { gameMissionsLoader } from './screens/game-missions';
 
 export default [
   {
@@ -11,6 +12,15 @@ export default [
         path: 'game/:slug',
         element: <GameDetails />,
         loader: gameDetailsLoader,
+      },
+      {
+        path: 'game/:slug/missions',
+        element: <GameMissions />,
+        loader: gameMissionsLoader,
+      },
+      {
+        path: 'game/:slug/tips',
+        element: <h1>Tips page</h1>,
       },
     ],
   },

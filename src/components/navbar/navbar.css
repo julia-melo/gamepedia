@@ -13,7 +13,8 @@ header {
   height: 64px;
 }
 
-header h1 {
+header h1,
+.navbar-button svg {
   color: var(--md-sys-color-on-background-media);
 }
 

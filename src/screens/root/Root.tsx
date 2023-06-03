@@ -12,8 +12,8 @@ export default function Root() {
         'Loading...'
       ) : (
         <section className="root-container">
-          <Link to={`game/hogwarts-legacy`}>Go to hogwarts legacy</Link>
-          <Link to={`/`}>Return to root page</Link>
+          {/* <Link to={`game/hogwarts-legacy`}>Go to hogwarts legacy</Link>
+          <Link to={`/`}>Return to root page</Link> */}
           <Outlet />
         </section>
       )}
