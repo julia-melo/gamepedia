@@ -1,3 +1,14 @@
+span,
+div,
+p,
+a {
+  font-family: Roboto;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.24;
+  letter-spacing: 0.5px;
+}
+
 .text-small {
   font-size: 12px;
 }

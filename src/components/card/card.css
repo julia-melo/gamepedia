@@ -4,7 +4,7 @@
   display: inline-block;
   width: 272px;
   height: 184px;
-  border-radius: 12px;
+  border-radius: var(--radius-2);
   transition: transform ease-in-out 0.2s;
   cursor: pointer;
 }
@@ -13,7 +13,7 @@
   transform: scale(1.08);
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 600px) {
   .card {
     width: -webkit-fill-available;
   }
@@ -30,7 +30,7 @@
 
 .card-background,
 .card-background::after {
-  border-radius: 12px;
+  border-radius: var(--radius-2);
 
   position: absolute;
   left: 0;
@@ -50,14 +50,10 @@
 }
 
 .card-content {
-  padding: 16px;
+  padding: var(--spacing-20);
   position: absolute;
   z-index: 1;
   right: 0;
   bottom: 0;
   text-align: right;
-}
-
-.card-text {
-  color: var(--md-sys-color-on-background-media);
 }

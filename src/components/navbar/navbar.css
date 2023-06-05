@@ -6,19 +6,19 @@ header {
   align-items: center;
   background: linear-gradient(
     90deg,
-    var(--md-sys-color-gradient-1) 0%,
-    var(--md-sys-color-gradient-2) 71%,
-    var(--md-sys-color-gradient-3) 100%
+    var(--color-gradient-1) 0%,
+    var(--color-gradient-2) 71%,
+    var(--color-gradient-3) 100%
   );
   height: 64px;
 }
 
 header h1,
 .navbar-button svg {
-  color: var(--md-sys-color-on-background-media);
+  color: var(--color-on-background-media);
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 600px) {
   header {
     height: 56px;
   }

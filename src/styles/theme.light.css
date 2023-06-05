@@ -1,13 +1,13 @@
 body {
-  --md-sys-color-primary: var(--md-sys-color-primary-light);
-  --md-sys-color-on-primary: var(--md-sys-color-on-primary-light);
-  --md-sys-color-background: var(--md-sys-color-background-light);
-  --md-sys-color-on-background: var(--md-sys-color-on-background-light);
-  --md-sys-color-background-media: var(--md-sys-color-background-media-light);
-  --md-sys-color-on-background-media: var(--md-sys-color-on-background-media-light);
-  --md-sys-color-surface: var(--md-sys-color-surface-light);
-  --md-sys-color-on-surface: var(--md-sys-color-on-surface-light);
-  --md-sys-color-gradient-1: var(--md-sys-color-gradient-1-light);
-  --md-sys-color-gradient-2: var(--md-sys-color-gradient-2-light);
-  --md-sys-color-gradient-3: var(--md-sys-color-gradient-3-light);
+  --color-primary: var(--color-primary-light);
+  --color-on-primary: var(--color-on-primary-light);
+  --color-background: var(--color-background-light);
+  --color-on-background: var(--color-on-background-light);
+  --color-background-media: var(--color-background-media-light);
+  --color-on-background-media: var(--color-on-background-media-light);
+  --color-surface: var(--color-surface-light);
+  --color-on-surface: var(--color-on-surface-light);
+  --color-gradient-1: var(--color-gradient-1-light);
+  --color-gradient-2: var(--color-gradient-2-light);
+  --color-gradient-3: var(--color-gradient-3-light);
 }

@@ -1,13 +1,13 @@
 body.dark-mode {
-  --md-sys-color-primary: var(--md-sys-color-primary-dark);
-  --md-sys-color-on-primary: var(--md-sys-color-on-primary-dark);
-  --md-sys-color-background: var(--md-sys-color-background-dark);
-  --md-sys-color-on-background: var(--md-sys-color-on-background-dark);
-  --md-sys-color-background-media: var(--md-sys-color-background-media-dark);
-  --md-sys-color-on-background-media: var(--md-sys-color-on-background-media-dark);
-  --md-sys-color-surface: var(--md-sys-color-surface-dark);
-  --md-sys-color-on-surface: var(--md-sys-color-on-surface-dark);
-  --md-sys-color-gradient-1: var(--md-sys-color-gradient-1-dark);
-  --md-sys-color-gradient-2: var(--md-sys-color-gradient-2-dark);
-  --md-sys-color-gradient-3: var(--md-sys-color-gradient-3-dark);
+  --color-primary: var(--color-primary-dark);
+  --color-on-primary: var(--color-on-primary-dark);
+  --color-background: var(--color-background-dark);
+  --color-on-background: var(--color-on-background-dark);
+  --color-background-media: var(--color-background-media-dark);
+  --color-on-background-media: var(--color-on-background-media-dark);
+  --color-surface: var(--color-surface-dark);
+  --color-on-surface: var(--color-on-surface-dark);
+  --color-gradient-1: var(--color-gradient-1-dark);
+  --color-gradient-2: var(--color-gradient-2-dark);
+  --color-gradient-3: var(--color-gradient-3-dark);
 }

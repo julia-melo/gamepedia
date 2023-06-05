@@ -4,14 +4,21 @@
 }
 
 .root-container {
-  margin-top: 64px;
+  margin-top: var(--spacing-80);
+  margin-bottom: var(--spacing-50);
   max-width: 864px;
   width: 100%;
-  padding: 0 16px;
+  padding: 0 var(--spacing-20);
 }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 896px) {
   .root-container {
-    margin-top: 56px;
+    max-width: 568px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .root-container {
+    margin-top: var(--spacing-70);
   }
 }

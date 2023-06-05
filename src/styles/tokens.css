@@ -1,25 +1,25 @@
 :root {
-  --md-sys-color-primary-light: #724c9f;
-  --md-sys-color-on-primary-light: #ffffff;
-  --md-sys-color-background-light: #fffbff;
-  --md-sys-color-on-background-light: #1d1b1e;
-  --md-sys-color-background-media-light: rgba(54, 52, 56, 0.4);
-  --md-sys-color-on-background-media-light: #ffffff;
-  --md-sys-color-surface-light: #eeeeee;
-  --md-sys-color-on-surface-light: #1d1b1e;
-  --md-sys-color-gradient-1-light: #1f0040;
-  --md-sys-color-gradient-2-light: #312a97;
-  --md-sys-color-gradient-3-light: #724c9f;
+  --color-primary-light: #724c9f;
+  --color-on-primary-light: #ffffff;
+  --color-background-light: #fffbff;
+  --color-on-background-light: #1d1b1e;
+  --color-background-media-light: rgba(54, 52, 56, 0.4);
+  --color-on-background-media-light: #ffffff;
+  --color-surface-light: #eeeeee;
+  --color-on-surface-light: #1d1b1e;
+  --color-gradient-1-light: #1f0040;
+  --color-gradient-2-light: #312a97;
+  --color-gradient-3-light: #724c9f;
 
-  --md-sys-color-primary-dark: #dab9ff;
-  --md-sys-color-on-primary-dark: #411b6d;
-  --md-sys-color-background-dark: #211f22;
-  --md-sys-color-on-background-dark: #ffffff;
-  --md-sys-color-background-media-dark: rgba(54, 52, 56, 0.4);
-  --md-sys-color-on-background-media-dark: #ffffff;
-  --md-sys-color-surface-dark: #363438;
-  --md-sys-color-on-surface-dark: #ffffff;
-  --md-sys-color-gradient-1-dark: #1f0040;
-  --md-sys-color-gradient-2-dark: #b990e5;
-  --md-sys-color-gradient-3-dark: #724c9f;
+  --color-primary-dark: #dab9ff;
+  --color-on-primary-dark: #411b6d;
+  --color-background-dark: #211f22;
+  --color-on-background-dark: #ffffff;
+  --color-background-media-dark: rgba(54, 52, 56, 0.4);
+  --color-on-background-media-dark: #ffffff;
+  --color-surface-dark: #363438;
+  --color-on-surface-dark: #ffffff;
+  --color-gradient-1-dark: #1f0040;
+  --color-gradient-2-dark: #b990e5;
+  --color-gradient-3-dark: #724c9f;
 }

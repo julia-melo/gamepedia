@@ -1,4 +1,4 @@
-import { Sizes } from '@/types';
+import { Colors, Sizes } from '@/types';
 import Text from '../text/Text';
 import Heading from '../heading/Heading';
 import './card.css';
@@ -16,10 +16,10 @@ export default function Card({ title, head, image, onClick, id }: CardProps) {
     <button className="card" onClick={() => onClick(id)}>
       <div className="card-background" style={{ backgroundImage: `url(${image})` }} />
       <div className="card-content">
-        <Text className="card-text" size={Sizes.MEDIUM}>
+        <Text size={Sizes.MEDIUM} color={Colors.ON_BACKGROUND_MEDIA}>
           {head}
         </Text>
-        <Heading className="card-text" size={Sizes.SMALL}>
+        <Heading size={Sizes.SMALL} color={Colors.ON_BACKGROUND_MEDIA}>
           {title}
         </Heading>
       </div>
